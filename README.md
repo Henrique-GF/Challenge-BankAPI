@@ -20,10 +20,10 @@ Após configurar a conexção com seu servidor, abra o console do gerenciador de
 ## Cadastro
 #### Antes realizar qualquer movimentação na conta, será necessário cadastrá-la primeiro
 
-Endpoint: http://localhost:[porta]//Cadastro?Nome={nome}&Senha={senha}
-Método: GET
+* Endpoint: http://localhost:[porta]//Cadastro?Nome={nome}&Senha={senha}
+* Método: GET
 
-Ex: 
+Ex.: 
 
 Request
 https://localhost:44341/Cadastro?Nome=Henrique&Senha=password
@@ -35,10 +35,10 @@ Response
 ## Deposito
 #### Será possível Depositar apenas se utilizar a senha correta de seu conta.
 
-Endpoint: http://localhost:[porta]//Deposito?Conta={conta}&Valor={valor}&Senha={senha}
-Método: GET
+* Endpoint: http://localhost:[porta]//Deposito?Conta={conta}&Valor={valor}&Senha={senha}
+* Método: GET
 
-Ex:
+Ex.:
 Request
 https://localhost:44341/Deosito?Conta=649209&Valor=500&Senha=password
 
@@ -49,10 +49,10 @@ Response
 ## Saque
 #### Será possível sacar se utilizar a senha correta da conta e se o seu saldo for suficiente
 
-Endpoint: http://localhost:[porta]//Saque?Conta={conta}&Valor={valor}&Senha={senha}
-Método: GET
+* Endpoint: http://localhost:[porta]//Saque?Conta={conta}&Valor={valor}&Senha={senha}
+* Método: GET
 
-Ex:
+Ex.:
 Request
 https://localhost:44341/Saque?Conta=649209&Valor=100&Senha=password
 
@@ -64,8 +64,8 @@ Response
 ## Saldo
 #### Para consultar o saldo informe a conta e a senha de sua conta
 
-Endpoint: http://localhost:[porta]//Saldo?Conta={conta}&Senha={senha}
-Método: GET
+* Endpoint: http://localhost:[porta]//Saldo?Conta={conta}&Senha={senha}
+* Método: GET
 
 Ex.:
 
