@@ -17,8 +17,8 @@ Após configurar a conexção com seu servidor, abra o console do gerenciador de
 
 ✅ [Saldo](#saldo)
 
-#### Cadastro
-#Antes realizar qualquer movimentação na conta, será necessário cadastrá-la primeiro
+## Cadastro
+#### Antes realizar qualquer movimentação na conta, será necessário cadastrá-la primeiro
 
 Endpoint: http://localhost:[porta]//Cadastro?Nome={nome}&Senha={senha}
 Método: GET
@@ -32,8 +32,8 @@ Response
 {"Cadastro":{"Mensagem":"Sua conta foi cadastrada.","conta":"649209"}}
 
 
-#### Deposito
-# Será possível Depositar apenas se utilizar a senha correta de seu conta.
+## Deposito
+#### Será possível Depositar apenas se utilizar a senha correta de seu conta.
 
 Endpoint: http://localhost:[porta]//Deposito?Conta={conta}&Valor={valor}&Senha={senha}
 Método: GET
@@ -46,8 +46,8 @@ Response
 {"Depositar":{"conta":"649209","saldo":500.00}}
 
 
-#### Saque
-# Será possível sacar se utilizar a senha correta da conta e se o seu saldo for suficiente
+## Saque
+#### Será possível sacar se utilizar a senha correta da conta e se o seu saldo for suficiente
 
 Endpoint: http://localhost:[porta]//Saque?Conta={conta}&Valor={valor}&Senha={senha}
 Método: GET
@@ -61,8 +61,8 @@ Response
 
 
 
-#### Saldo
-#Para consultar o saldo informe a conta e a senha de sua conta
+## Saldo
+#### Para consultar o saldo informe a conta e a senha de sua conta
 
 Endpoint: http://localhost:[porta]//Saldo?Conta={conta}&Senha={senha}
 Método: GET
