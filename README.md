@@ -1,15 +1,17 @@
 # BankAPI
 
-Este projeto é uma API que simula movimentações de uma conta bancária.
+Este projeto é uma API que simula transações de uma conta bancária. Você pode cadastrar uma conta, depositar, sacar e conferir seu saldo.
 
-Para realizar os teste da API recomendo o uso do Postman
+Para utilizar essa API recomendo o uso do Postman
 https://www.postman.com/downloads/
-
 
 #### Exemplo Postman
 [Collection Postman](https://github.com/Henrique-GF/Challenge-BankAPI/blob/master/BankAPI.postman_collection.json)
 
-## Recursos   
+
+###Está listado abaixo o passo a passo para utilizar cada recurso da API
+
+## Atalhos   
 
 ✅ [Cadastro](#cadastro)
 
