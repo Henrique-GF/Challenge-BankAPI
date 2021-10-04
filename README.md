@@ -1,5 +1,8 @@
 # BankAPI
 
+Este projeto é uma API que simula movimentações de uma conta bancária.
+
+Para realisar os teste da API recomento o uso do Postman
 
 #### Exemplo Postman
 [Collection Postman](https://github.com/Henrique-GF/Challenge-BankAPI/blob/master/BankAPI.postman_collection.json)
@@ -29,6 +32,7 @@ Response
 {"Cadastro":{"Mensagem":"Sua conta foi cadastrada.","conta":"649209"}}
 
 
+
 ### Deposito
 #### Deve informar a senha de sua conta
 
@@ -41,6 +45,16 @@ https://bankapi20211004150436.azurewebsites.net/Deosito?Conta=649209&Valor=500&S
 
 Response
 {"Depositar":{"conta":"649209","saldo":500.00}}
+
+#### Possíveis Erros
+
+Conta inexistente
+
+Response: {"Erro":{"Mensagem":"Não existe uma conta com esse número"}}
+
+Senha incorreta
+
+Response: {"Erro":{"Mensagem":"Senha incorreta"}}
 
 
 ### Saque
@@ -56,7 +70,19 @@ https://bankapi20211004150436.azurewebsites.net/Saque?Conta=649209&Valor=100&Sen
 Response
 {"Sacar":{"conta":"649209","saldo":400.00}}
 
+#### Possíveis Erros
 
+Conta inexistente
+
+Response: {"Erro":{"Mensagem":"Não existe uma conta com esse número"}}
+
+Senha Incorreta
+
+Response: {"Erro":{"Mensagem":"Senha incorreta"}}
+
+Saldo Insuficiente
+
+Response: {"Erro":{"Message":"Saldo insuficiente."}}
 
 ### Saldo
 #### Deve informar a senha de sua conta
@@ -72,4 +98,12 @@ https://bankapi20211004150436.azurewebsites.net/Saldo?Conta=649209&Senha=passwor
 Response
 {"Saldo":{"conta":"649209","saldo":400.00}}
 
+#### Possíveis Erros
 
+Conta inexistente
+
+Response: {"Erro":{"Mensagem":"Não existe uma conta com esse número"}}
+
+Senha incorreta
+
+Response: {"Erro":{"Mensagem":"Senha incorreta"}}
