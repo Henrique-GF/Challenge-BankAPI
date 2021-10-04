@@ -1,0 +1,137 @@
+{
+	"info": {
+		"_postman_id": "606e16a8-5cd5-4efc-b75f-f53873733e55",
+		"name": "BankAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Cadastro",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://bankapi20211004150436.azurewebsites.net/Cadastro?Nome=Henrique&Senha=password",
+					"protocol": "https",
+					"host": [
+						"bankapi20211004150436",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"Cadastro"
+					],
+					"query": [
+						{
+							"key": "Nome",
+							"value": "Henrique"
+						},
+						{
+							"key": "Senha",
+							"value": "password"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Saque",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://bankapi20211004150436.azurewebsites.net/Saque?Conta=365769&Valor=100&Senha=password",
+					"protocol": "https",
+					"host": [
+						"bankapi20211004150436",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"Saque"
+					],
+					"query": [
+						{
+							"key": "Conta",
+							"value": "365769"
+						},
+						{
+							"key": "Valor",
+							"value": "100"
+						},
+						{
+							"key": "Senha",
+							"value": "password"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deposito",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://bankapi20211004150436.azurewebsites.net/Deposito?Conta=365769&Valor=500&Senha=password",
+					"protocol": "https",
+					"host": [
+						"bankapi20211004150436",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"Deposito"
+					],
+					"query": [
+						{
+							"key": "Conta",
+							"value": "365769"
+						},
+						{
+							"key": "Valor",
+							"value": "500"
+						},
+						{
+							"key": "Senha",
+							"value": "password"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Saldo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://bankapi20211004150436.azurewebsites.net/Saldo?Conta=365769&Senha=password",
+					"protocol": "https",
+					"host": [
+						"bankapi20211004150436",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"Saldo"
+					],
+					"query": [
+						{
+							"key": "Conta",
+							"value": "365769"
+						},
+						{
+							"key": "Senha",
+							"value": "password"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
