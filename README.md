@@ -8,7 +8,7 @@ Para utilizar essa API recomendo o uso do Postman
 [Collection Postman](https://github.com/Henrique-GF/Challenge-BankAPI/blob/master/BankAPI.postman_collection.json)
 
 
-###Está listado abaixo o passo a passo para utilizar cada recurso da API
+### Está listado abaixo o passo a passo para utilizar cada recurso da API
 
 ## Atalhos   
 
