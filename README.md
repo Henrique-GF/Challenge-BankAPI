@@ -2,7 +2,9 @@
 
 Este projeto é uma API que simula movimentações de uma conta bancária.
 
-Para realisar os teste da API recomento o uso do Postman
+Para realizar os teste da API recomendo o uso do Postman
+https://www.postman.com/downloads/
+
 
 #### Exemplo Postman
 [Collection Postman](https://github.com/Henrique-GF/Challenge-BankAPI/blob/master/BankAPI.postman_collection.json)
