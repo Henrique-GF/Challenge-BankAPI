@@ -1,4 +1,4 @@
-# BankAPI :)
+# BankAPI
 
 #### Pré requisito
 No momento o projeto pode ser executado apenas em Localhost e conectado com um servidor local, então para executá-lo será necessário instalá-lo e executá-lo em uma IDE e configurar a conexão com seu servidor e com o banco de dados no "ConnectionStrings" localizado no arquivo appsettings.json.
@@ -7,7 +7,7 @@ Após configurar a conexção com seu servidor, abra o console do gerenciador de
 #### Example Postman
 [Collection Postman](https://github.com/Henrique-GF/Challenge-BankAPI/blob/master/BankAPI.postman_collection.json)
 
-# Features   
+## Recursos   
 
 ✅ [Cadastro](#cadastro)
 
@@ -17,7 +17,7 @@ Após configurar a conexção com seu servidor, abra o console do gerenciador de
 
 ✅ [Saldo](#saldo)
 
-## Cadastro
+### Cadastro
 #### Antes realizar qualquer movimentação na conta, será necessário cadastrá-la primeiro
 
 * Endpoint: http://localhost:[porta]//Cadastro?Nome={nome}&Senha={senha}
@@ -32,7 +32,7 @@ Response
 {"Cadastro":{"Mensagem":"Sua conta foi cadastrada.","conta":"649209"}}
 
 
-## Deposito
+### Deposito
 #### Será possível Depositar apenas se utilizar a senha correta de seu conta.
 
 * Endpoint: http://localhost:[porta]//Deposito?Conta={conta}&Valor={valor}&Senha={senha}
@@ -46,7 +46,7 @@ Response
 {"Depositar":{"conta":"649209","saldo":500.00}}
 
 
-## Saque
+### Saque
 #### Será possível sacar se utilizar a senha correta da conta e se o seu saldo for suficiente
 
 * Endpoint: http://localhost:[porta]//Saque?Conta={conta}&Valor={valor}&Senha={senha}
@@ -61,7 +61,7 @@ Response
 
 
 
-## Saldo
+### Saldo
 #### Para consultar o saldo informe a conta e a senha de sua conta
 
 * Endpoint: http://localhost:[porta]//Saldo?Conta={conta}&Senha={senha}
