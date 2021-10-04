@@ -12,13 +12,13 @@ Para utilizar essa API recomendo o uso do Postman
 
 ## Atalhos   
 
-✅ [Cadastro](#cadastro)
+[Cadastro](#cadastro)
 
-✅ [Saque](#saque)
+[Saque](#saque)
 
-✅ [Deposito](#deposito)
+[Deposito](#deposito)
 
-✅ [Saldo](#saldo)
+[Saldo](#saldo)
 
 ### Cadastro
 #### Antes realizar qualquer movimentação em sua conta, será necessário cadastrá-la primeiro
