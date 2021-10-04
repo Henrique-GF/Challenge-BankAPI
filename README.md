@@ -1,7 +1,7 @@
 # BankAPI
 
 
-#### Example Postman
+#### Exemplo Postman
 [Collection Postman](https://github.com/Henrique-GF/Challenge-BankAPI/blob/master/BankAPI.postman_collection.json)
 
 ## Recursos   
